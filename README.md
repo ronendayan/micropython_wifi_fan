@@ -5,7 +5,12 @@ For this project I used:
 * Simple Fan
 * Wemos D1 Mini
 * 3x 1 channel relay module
-* AC100~240V to 5V converter
+* AC100~240V to 5V converter  
+<img src="https://j.lnwfile.com/_/j/_raw/hs/my/fx.jpg" data-canonical-src="https://j.lnwfile.com/_/j/_raw/hs/my/fx.jpg" width="200" height="200" />
+<img src="https://images-na.ssl-images-amazon.com/images/I/61IwgJRgiyL._SY355_.jpg" data-canonical-src="https://images-na.ssl-images-amazon.com/images/I/61IwgJRgiyL._SY355_.jpg" width="200" height="200" />
+<img src="https://s-media-cache-ak0.pinimg.com/originals/10/6a/de/106ade153ee179a341795a57ca478db6.jpg" data-canonical-src="https://s-media-cache-ak0.pinimg.com/originals/10/6a/de/106ade153ee179a341795a57ca478db6.jpg" width="200" height="200" />
+
+
 ---
 The fan:  
 ![alt text](https://github.com/ronendayan/micropython_wifi_fan/blob/master/pictures/IMG_20180507_082219.jpg "Fan")

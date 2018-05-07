@@ -1,10 +1,7 @@
 import os
 import time
 import network
-import utime
 import machine
-import ubinascii
-import webrepl
 from umqtt.simple import MQTTClient
 from machine import Pin
 

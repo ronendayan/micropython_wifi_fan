@@ -49,24 +49,6 @@ def connect_to_mqtt():
         return None
 
 
-def sub_speed_cb(topic, msg):
-    print((topic, msg))
-    if msg == b"low":
-        turn_off(level_one)
-        turn_off(level_two)
-        turn_off(level_three)
-        turn_on(1)
-    elif msg == b"medium":
-        turn_off(level_one)
-        turn_off(level_two)
-        turn_off(level_three)
-        turn_on(2)
-    elif msg == b"high":
-        turn_off(level_one)
-        turn_off(level_two)
-        turn_off(level_three)
-        turn_on(3)
-
 def sub_cb(topic, msg):
     print((topic, msg))
 
@@ -164,13 +146,7 @@ def main():
     try:
         while True:
 
-            time.sleep(0.01)
-        
-            print('-------------------------------------------')
-            print('button_one_first: {}'.format(button_one.value()))
-            print('button_two_first: {}'.format(button_two.value()))
-            print('button_three_first: {}'.format(button_three.value()))
-            print('-------------------------------------------')
+            time.sleep(0.1)
 
             cur_btn = 0
 
